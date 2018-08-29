@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="hexcrypto" translate="label" sortOrder="50">
+            <label>Hexcrypto</label>
+        </tab>
+        <section id="hexcrypto" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Hexcrypto</label>
+            <tab>hexcrypto</tab>
+            <resource>Hexcrypto_Task::configurtion</resource>
+            <group id="task" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="status_options" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Status Options</label>
+                    <frontend_model>Hexcrypto\Task\Block\Adminhtml\Form\Field\Options</frontend_model>
+                    <backend_model>Hexcrypto\Task\Config\Backend\Options</backend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

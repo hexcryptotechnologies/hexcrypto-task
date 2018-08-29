@@ -1,0 +1,35 @@
+{
+   "name": "hexcrypto/task",
+   "description": "Backend module to add/edit task - UI Components",
+   "require": {
+       "php": "~7.0.13|~7.1.0"
+   },
+   "type": "magento2-module",
+   "version": "1.0.0",
+   "license": [
+       "OSL-3.0",
+       "AFL-3.0"
+   ],
+    "keywords": [
+     "magento 2",
+     "UI Components",
+     "hexcrypto",
+     "Hexcrypto_Task"
+   ],
+   "authors": [
+       {
+           "name": "hexcrypto",
+           "email": "hexcryptotechnologies@gmail.com",
+           "homepage": "http://www.hexcrypto.com/",
+           "role": "Developer"
+       }
+   ],
+   "autoload": {
+       "files": [
+           "registration.php"
+       ],
+       "psr-4": {
+           "Hexcrypto\\Task\\": ""
+       }
+   }
+}

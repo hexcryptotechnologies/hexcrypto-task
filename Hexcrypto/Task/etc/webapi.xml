@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <!-- Task CRUD -->
+    <route url="/V1/tasks/:id" method="GET">
+        <service class="Hexcrypto\Task\Api\TaskRepositoryInterface" method="getById"/>
+        <resources>
+            <resource ref="Hexcrypto_Task::task"/>
+        </resources>
+    </route>
+    <route url="/V1/tasks" method="GET">
+        <service class="Hexcrypto\Task\Api\TaskRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="Hexcrypto_Task::task"/>
+        </resources>
+    </route>
+    <route url="/V1/tasks" method="POST">
+        <service class="Hexcrypto\Task\Api\TaskRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Hexcrypto_Task::save"/>
+        </resources>
+    </route>
+    <route url="/V1/tasks/:id" method="PUT">
+        <service class="Hexcrypto\Task\Api\TaskRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Hexcrypto_Task::save"/>
+        </resources>
+    </route>
+    <route url="/V1/tasks/:id" method="DELETE">
+        <service class="Hexcrypto\Task\Api\TaskRepositoryInterface" method="deleteById"/>
+        <resources>
+            <resource ref="Hexcrypto_Task::delete"/>
+        </resources>
+    </route>
+
+</routes>

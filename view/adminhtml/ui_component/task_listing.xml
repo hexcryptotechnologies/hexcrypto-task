@@ -139,12 +139,6 @@
         <column name="start_time">
             <settings>
                 <filter>dateRange</filter>
-                <editor>
-                    <validation>
-                        <rule name="required-entry" xsi:type="boolean">true</rule>
-                    </validation>
-                    <editorType>date</editorType>
-                </editor>
                 <dataType>date</dataType>
                 <label translate="true">Start Time</label>
             </settings>
@@ -152,12 +146,6 @@
         <column name="end_time">
             <settings>
                 <filter>dateRange</filter>
-                <editor>
-                    <validation>
-                        <rule name="required-entry" xsi:type="boolean">true</rule>
-                    </validation>
-                    <editorType>date</editorType>
-                </editor>
                 <dataType>date</dataType>
                 <label translate="true">End Time</label>
             </settings>

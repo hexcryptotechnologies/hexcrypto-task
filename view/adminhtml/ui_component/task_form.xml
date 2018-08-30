@@ -47,7 +47,7 @@
         <field name="id" formElement="input">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="source" xsi:type="string">page</item>
+                    <item name="source" xsi:type="string">task</item>
                 </item>
             </argument>
             <settings>
@@ -59,7 +59,7 @@
         <field name="task_name" sortOrder="10" formElement="input">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="source" xsi:type="string">page</item>
+                    <item name="source" xsi:type="string">task</item>
                 </item>
             </argument>
             <settings>
@@ -74,7 +74,7 @@
         <field name="task_description" sortOrder="70" formElement="textarea">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="source" xsi:type="string">page</item>
+                    <item name="source" xsi:type="string">task</item>
                 </item>
             </argument>
             <settings>
@@ -89,7 +89,7 @@
         <field name="start_time" sortOrder="30" formElement="date">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="source" xsi:type="string">page</item>
+                    <item name="source" xsi:type="string">task</item>
                     <item name="options" xsi:type="array">
                         <item name="dateFormat" xsi:type="string">yyyy-MM-dd</item>
                         <item name="timeFormat" xsi:type="string">HH:mm:ss</item>
@@ -111,7 +111,7 @@
         <field name="end_time" sortOrder="40" formElement="date">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="source" xsi:type="string">page</item>
+                    <item name="source" xsi:type="string">task</item>
                     <item name="options" xsi:type="array">
                         <item name="dateFormat" xsi:type="string">yyyy-MM-dd</item>
                         <item name="timeFormat" xsi:type="string">HH:mm:ss</item>
@@ -133,7 +133,7 @@
         <field name="assigned_person" sortOrder="50" formElement="input">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="source" xsi:type="string">page</item>
+                    <item name="source" xsi:type="string">task</item>
                 </item>
             </argument>
             <settings>
@@ -148,7 +148,7 @@
         <field name="status" sortOrder="60" formElement="select">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="source" xsi:type="string">page</item>
+                    <item name="source" xsi:type="string">task</item>
                 </item>
             </argument>
             <settings>

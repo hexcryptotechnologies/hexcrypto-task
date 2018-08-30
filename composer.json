@@ -7,7 +7,7 @@
    "minimum-stability":"alpha",
    "prefer-stable":true,   
    "type": "magento2-module",
-   "version": "1.0.0",
+   "version": "2.0.0",
     "keywords": [
      "magento 2",
      "UI Components",

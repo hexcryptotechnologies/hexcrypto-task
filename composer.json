@@ -1,22 +1,26 @@
 {
    "name": "hexcrypto/task",
-   "description": "Backend module to add/edit task - UI Components",
+   "description": "Backend Module UI Components - CRUD",
    "require": {
        "php": "~7.0.13|~7.1.0"
    },
    "minimum-stability":"alpha",
    "prefer-stable":true,   
    "type": "magento2-module",
-   "version": "1.1.1",
+   "version": "1.1.2",
    "license": [
        "OSL-3.0",
        "AFL-3.0"
    ],
     "keywords": [
-     "magento 2",
+     "Magento 2",
      "UI Components",
-     "hexcrypto",
-     "Hexcrypto_Task"
+     "Hexcrypto Technologies",
+     "Hexcrypto_Task",
+     "Magento 2 Backend CRUD",
+     "Magento 2 UI Grid",
+     "Magento 2 Datepickers",
+     "Magento 2 System.xml Dynamic Fields"
    ],
    "authors": [
        {
